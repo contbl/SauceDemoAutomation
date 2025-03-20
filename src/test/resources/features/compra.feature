@@ -1,5 +1,6 @@
 Feature: Compra de produto
 
+  @ComprarProduto
   Scenario: Comprar um produto com sucesso
     Given que estou na página de login
     When insiro usuário "standard_user" e senha "secret_sauce"

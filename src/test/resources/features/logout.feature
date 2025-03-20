@@ -1,5 +1,6 @@
 Feature: Logout no SauceDemo
 
+  @LogoutTest
 Scenario: Logout do usuário
   Given que estou logado no sistema
   When clico no menu lateral

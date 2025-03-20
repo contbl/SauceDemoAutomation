@@ -1,5 +1,6 @@
 Feature: Login no SauceDemo
 
+  @LoginTest
   Scenario: Login com sucesso
     Given que estou na página de login
     When insiro usuário "standard_user" e senha "secret_sauce"

@@ -11,6 +11,7 @@ import utils.BaseTest;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "steps",
+        tags =  "@ComprarProduto",
         plugin = {"pretty", "json:target/cucumber-report.json"}
 )
 public class TestRunner {
